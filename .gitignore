@@ -1,0 +1,13 @@
+# Can ignore specific files
+*.o
+*.d
+*.bin
+*.elf
+*.hex
+*.map
+*.gdb
+*~
+
+# Can also ignore all directories and files in a directory.
+build/**/*
+obj/**/* 
